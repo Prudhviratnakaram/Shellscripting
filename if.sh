@@ -7,3 +7,10 @@ if [ $1 -eq 10 ];then
   fi
 
 
+echo "string comparision"
+echo $1 $2
+if [ $1 = $2 ];then
+  echo "strings are equal"
+  else
+    echo "strings are not equals"
+    fi
