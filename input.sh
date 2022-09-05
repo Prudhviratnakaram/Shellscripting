@@ -6,4 +6,5 @@ read -p 'Enter the name: ' name
 echo "the name is " $name
 echo "taking the password as input"
 read -sp "enter password"  password
+echo
 echo -p "the password is " $password
