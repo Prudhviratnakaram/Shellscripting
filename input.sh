@@ -1,5 +1,4 @@
 
 evho "taking the input in same line"
-echo "enter the name"
-read -p name
+read -p 'Enter the name:'name
 echo "the name is "$name
