@@ -5,5 +5,5 @@ echo "taking the input in same line"
 read -p 'Enter the name: ' name
 echo "the name is " $name
 echo "taking the password as input"
-read -sp "enter password" : password
+read -sp "enter password"  password
 echo "the password is " $password
