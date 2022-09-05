@@ -6,3 +6,9 @@ if [ -e "$filename" ];then
   else
     echo "file not found"
     fi
+
+    if [ -f "$filename" ];then
+      echo "filefound"
+      else
+        echo "file not found"
+        fi
