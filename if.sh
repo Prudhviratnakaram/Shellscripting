@@ -8,8 +8,8 @@ if [ $1 -eq 10 ];then
 
 
 echo "string comparision"
-echo $1 $2
-if [ $1 = $2 ];then
+echo $2 $3
+if [ $2 = $3 ];then
   echo "strings are equal"
   else
     echo "strings are not equals"
