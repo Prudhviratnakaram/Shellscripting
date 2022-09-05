@@ -11,3 +11,6 @@ echo "the password is " $password
 echo "Array of names"
 read -a names
 echo "${names[0]},${names[1]}"
+echo "without giving any option to read"
+read
+echo "the values are "$REPLY
