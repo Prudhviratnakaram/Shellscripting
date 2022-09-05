@@ -7,4 +7,7 @@ echo "the name is " $name
 echo "taking the password as input"
 read -sp "enter password"  password
 echo
-echo -p "the password is " $password
+echo "the password is " $password
+echo "Array of names"
+read -a names
+echo "${names[0]},${names[1]}"
