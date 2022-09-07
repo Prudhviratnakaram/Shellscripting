@@ -1,6 +1,6 @@
 echo "enter file name"
 read filename
-#special
+special
 if [ -e "$filename" ];then
   echo "filefound"
   else
