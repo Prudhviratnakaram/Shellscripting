@@ -4,10 +4,10 @@ read filename
    if [ -w $filename ];then
      echo "type some text in to  the file"
      cat >>$filename
-    else
+   else
       echo "file does not have the write permisssions"
     fi
-    else
+else
     echo "file not found"
  fi
 
