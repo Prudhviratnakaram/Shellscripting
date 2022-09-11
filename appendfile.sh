@@ -1,4 +1,4 @@
-echo "enter the file filename"
+echo -e "enter the file filename"
 read $filename
  if [ -f "$filename" ];then
    if [ -w "$filename" ];then
