@@ -7,6 +7,7 @@ read $filename
     else
       echo "file does not have the write permisssions"
     fi
+    else
     echo "file not found"
  fi
 
