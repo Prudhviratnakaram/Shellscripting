@@ -1,7 +1,7 @@
 echo -e "enter the file filename"
-read $filename
- if [ -f "$filename" ];then
-   if [ -w "$filename" ];then
+read filename
+ if [ -f $filename ];then
+   if [ -w $filename ];then
      echo "type some text in to  the file"
      cat >>$filename
     else
