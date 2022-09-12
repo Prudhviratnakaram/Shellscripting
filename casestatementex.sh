@@ -15,4 +15,4 @@ case $value in
   * )
     echo "unknown veichle" ;;
 esac
-
+# LANG=C Setting the language c because the value is throwing some time error
