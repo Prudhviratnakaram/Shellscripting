@@ -9,7 +9,8 @@ echo $(( num1 % num2 ))
 echo another way tp do it
 echo $(expr $num1 + $num2 )
 echo $(expr $num1 - $num2 )
-echo $(expr $num1 * $num2 )
+echo for the * we need to give /
+echo $(expr $num1 \* $num2 )
 echo $(expr $num1 / $num2 )
 echo $(expr $num1 % $num2 )
 
