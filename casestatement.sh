@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 Vechile=$1
 
-case $veichle in
+case $Vechile in
   "car" )
   echo "this is a $Vechile of rent 80" ;;
   "jeep" )
