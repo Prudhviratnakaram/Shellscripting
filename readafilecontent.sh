@@ -2,4 +2,4 @@
 while IFS= read -r line
 do
  echo $line
-done << while.sh
+done < while.sh
