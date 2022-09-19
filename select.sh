@@ -8,6 +8,9 @@ do
   john)
     echo john selected
     ;;
+  tom)
+    echo tom selected
+    ;;
   ben)
     echo ben selected
     ;;
