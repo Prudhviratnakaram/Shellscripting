@@ -1,7 +1,4 @@
-select name in mark john tom ben
-do
-  echo "$name selected"
-done
+
 select name in mark john tom ben
 do
   case $name in
