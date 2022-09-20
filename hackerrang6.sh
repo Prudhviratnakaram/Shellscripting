@@ -7,10 +7,5 @@ then
      then
        echo EQUILATERAL
     fi
-    if(( "$X" == "$Y" && "$Y" == "$Z" && "$Z"==""$X"" ))
-      then
-        echo ISOSCELES
-      else
-        echo SCALENE
-    fi
+
 fi
