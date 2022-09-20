@@ -1,13 +1,11 @@
 read value
 
-if(( "${value}" == 'y' || "${value}" == 'Y'  || "${value}" == 'n' || "${value}" == 'N'))
+if(( "${value}" == "y" || "${value}" == "Y"  || "${value}" == "n" || "${value}" == "N" ))
 then
-   if(( "${value}" == 'y' || "${value}" == 'Y' ))
+   if(( "${value}" == "y" || "${value}" == "Y" ))
    then
     echo YES
-   fi
-   if(( "${value}" == 'n' || "${value}" == 'N' ))
-   then
+   else
    echo NO
   fi
 fi
