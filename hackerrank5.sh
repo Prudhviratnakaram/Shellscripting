@@ -1,6 +1,6 @@
 read value
 
-   if(( ${value} = "y" || ${value} = "Y" ))
+  if [ $value = "Y" -o $value = "y" ]
    then
     echo YES
    else
