@@ -7,7 +7,7 @@ then
      then
        echo EQUILATERAL
 
-    elif [ "$X" -eq "$Y" -o "$y" -eq "$z"  -o "$Z" -eq "$X" ]
+    elif [ "$X" -eq "$Y" -o "$Y" -eq "$Z"  -o "$Z" -eq "$X" ]
         then
           echo ISOSCELES
     fi
