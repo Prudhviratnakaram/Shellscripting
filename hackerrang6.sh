@@ -7,5 +7,5 @@ then
      then
        echo EQUILATERAL
     fi
-
+ echo "hello"
 fi
