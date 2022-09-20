@@ -1,6 +1,6 @@
 read value
 
-  if(($value == "Y" || $value == "y" ))
+  if [ $value = "Y" -o $value = "y" ]
    then
     echo YES
    else
