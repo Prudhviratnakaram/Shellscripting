@@ -3,6 +3,8 @@ read value
   if [ $value = "Y" -o $value = "y" ]
    then
     echo YES
-   else
-   echo NO
-  fi
+   fi
+     if [ $value = "N" -o $value = "n" ]
+     then
+      echo NO
+      fi
