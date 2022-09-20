@@ -6,5 +6,11 @@ then
    if (( "$X" == "$Y" == "$Z" ))
      then
        echo EQUILATERAL
-       fi
+    fi
+    if(( "$X" == "$Y" && "$Y" == "$Z" && "$Z"==""$X"" ))
+      then
+        echo ISOSCELES
+      else
+        echo SCALENE
+    fi
 fi
