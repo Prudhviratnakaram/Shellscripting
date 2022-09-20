@@ -7,7 +7,7 @@ then
      then
        echo EQUILATERAL
     fi
-    if [ "$X" -eq "$Y" -o "$X" -eq "$Z" -o "$Z" -eq "$X" ]
+    if [ "$X" -eq "$Y" -o "$Y" -eq "$Z" -o "$Z" -eq "$X" ] -a ![ "$X" -eq "$Y" -a "$Y" -eq "$Z" -a "$X" -eq "$Z" ]
         then
           echo ISOSCELES
         else
