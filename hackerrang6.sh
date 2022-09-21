@@ -8,11 +8,11 @@ read Z
      then
        echo EQUILATERAL
 
-    elif [ "$X" -eq "$Y" -o "$Y" -eq "$Z"  -o "$Z" -eq "$X" ]
+   elif [ "$X" -eq "$Y" -o "$Y" -eq "$Z"  -o "$Z" -eq "$X" ]
         then
           echo ISOSCELES
-    fi
+
     else
            echo SCALENE
-
+   fi
 fi
